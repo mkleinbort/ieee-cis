@@ -1,0 +1,15 @@
+
+# Data files should not be added
+*.csv
+*.p
+
+# Jupyter checkpoints should not be added
+*-checkpoint.ipynb
+*-checkpoint.py
+
+# Do not include CatBoost temporary files
+*.tmp
+*catboost_info*
+
+# Do not include python bytecode files
+*.pyc
